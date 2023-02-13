@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.backgroundone {
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(212, 231, 254, 1));
+    width: 1440px;
+    height: 746px;
+    display: block;
+
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    position: relative;
+    left: 6px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+
+}
+
+.header {
+    border-bottom: 1px solid rgba(33, 124, 244, 0.1);
+    display: flex;
+    height: 90px;
+}
+
+.navlinks {
+    display: flex;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+
+}
+
+ul {
+    display: flex;
+    margin-left: 72px;
+}
+
+.navlinks ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding-right: 32px;
+
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(101, 100, 100, 1);
+    font-weight: 500;
+}
+
+.search input {
+    border: 0;
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 112px;
+}
+
+.search {
+    margin-left: 348px;
+    display: flex;
+}
+
+
+.login-button {
+    background-color: rgba(33, 123, 244, 1);
+    color: white;
+    padding: 18px 44px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-left: 42px;
+    font-family: inter;
+
+}
+
+.main {
+    display: flex;
+    margin: auto;
+    height: 656px;
+    width: 1440;
+
+}
+
+.netbook-community {
+    align-items: center;
+    display: inline-block;
+    height: 338px;
+    width: 515px;
+    margin-top: 125px;
+    margin-left: 135px;
+}
+
+.netbook-community h1 {
+    font-size: 12px;
+    color: rgba(33, 123, 244, 1);
+    padding: 12px 30px;
+    background-color: rgba(33, 123, 244, 0.1);
+    border-radius: 8px;
+    border: none;
+    font-family: inter;
+    display: inline;
+    position: relative;
+}
+
+.netbook-community h2 {
+    font-size: 56px;
+    color: rgba(10, 9, 61, 1);
+    font-family: inter;
+    font-weight: 700;
+    line-height: 66px;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 18px;
+
+}
+
+.netbook-community p {
+    font-size: 18px;
+    color: rgba(101, 100, 100, 1);
+    font-family: inter;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    position: relative;
+
+}
+
+.Aboutmore {
+    background-color: rgba(33, 123, 244, 1);
+    color: white;
+    padding: 24px 42px;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    margin-top: 42px;
+    font-family: inter;
+}
+
+.Invitefriend {
+    color: rgba(33, 123, 244, 1);
+    padding: 24px 42px;
+    border: 1px solid rgba(33, 123, 244, 0.5);
+    border-radius: 14px;
+    font-size: 16px;
+    margin-top: 42px;
+    font-family: inter;
+    background: none;
+    margin-left: 18px;
+}
+
+.mainimg {
+    width: 585px;
+    height: 501px;
+    margin-top: 72px;
+    margin-right: 135px;
+}
+
+.Whats-Netboks {
+    width: 1171px;
+    height: 522px;
+    display: flex;
+    margin: 134px 124px;
+
+}
+
+
+.left {
+    position: relative;
+    display: inline-block;
+    height: 346px;
+    width: 406px;
+    top: 68px;
+    right: 50px;
+}
+
+.left h1 {
+    color: rgba(33, 123, 244, 1);
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+.left h2 {
+    color: rgba(10, 9, 61, 1);
+    font-size: 36px;
+    font-family: inter;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.left p {
+    color: rgba(101, 100, 100, 1);
+    font-size: 16px;
+    font-family: inter;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.left ul li {
+    margin: 0;
+    font-size: 18px;
+    line-height: 34px;
+    color: rgba(23, 22, 72, 1);
+    list-style: none;
+}
+
+.left ul li::before {
+    content: "\2022";
+    color: rgba(33, 123, 244, 1);
+    font-weight: bold;
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 17px;
+}
+
+
+.left ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    width: 573px;
+    height: 522px;
+    position: relative;
+    left: 70px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Image-1 {
+    position: relative;
+    right: 5px;
+}
+
+.Image-2 {
+    display: block;
+    position: relative;
+    bottom: 12px;
+}
+
+.Image-3 {
+    display: block;
+    position: relative;
+    top: 12px;
+}
+
+.raiting-awards-Our-Achievement {
+    display: flex;
+    width: 1440px;
+    height: 490px;
+    align-items: center;
+}
+
+.rait-award {
+    display: flex;
+    width: 696px;
+    height: 340px;
+    margin: 0;
+    left: 135px;
+    position: relative;
+}
+
+.raiting {
+    width: 336px;
+    height: 340px;
+    border-radius: 14px;
+    border: 1px solid rgba(94, 94, 94, 0.1);
+    box-sizing: border-box;
+    box-shadow: 14px 22px 52px rgba(127, 127, 127, 0.13);
+}
+
+.raiting h1 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgba(10, 9, 61, 1);
+    margin-top: 46px;
+}
+
+.raiting h1 span {
+    color: rgba(33, 123, 244, 1);
+    font-size: 30px;
+}
+
+.imgandp {
+    color: rgba(93, 91, 112, 1);
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: inter;
+    margin-top: 36px;
+}
+
+.imgandp img {
+    padding-right: 16px;
+}
+
+.raiting p span {
+    color: rgba(33, 123, 244, 1);
+}
+
+.raitingp {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(140, 140, 140, 1);
+    margin-top: 43px;
+    margin-bottom: 40px;
+}
+
+.raiting a {
+    color: rgba(33, 123, 244, 1);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.award {
+    width: 336px;
+    height: 340px;
+    border-radius: 14px;
+    border: 1px solid rgba(94, 94, 94, 0.1);
+    box-sizing: border-box;
+    box-shadow: 14px 22px 52px rgba(127, 127, 127, 0.13);
+}
+
+.award h1 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgba(10, 9, 61, 1);
+    margin-top: 46px;
+}
+
+.justp span {
+    color: rgba(33, 123, 244, 1);
+}
+
+.middle {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(140, 140, 140, 1);
+    margin-top: 43px;
+    margin-bottom: 40px;
+}
+
+.award a {
+    color: rgba(74, 74, 86, 1);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.justp {
+    color: rgba(93, 91, 112, 1);
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: inter;
+    margin-top: 42px;
+}
+
+.Achievement {
+    width: 365px;
+    height: 322px;
+    display: block;
+    margin-right: 151px;
+}
+
+.Achievement h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(33, 123, 244, 1);
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+.Achievement h2 {
+    color: rgba(10, 9, 61, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Achievement p {
+    color: rgba(101, 100, 100, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 18px;
+    margin-bottom: 38px;
+}
+
+.Achievement button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 22px 38px;
+    border-radius: 14px;
+    background-color: rgba(33, 123, 244, 1);
+    color: white;
+    border: none;
+
+}
+
+.Community-Main-Feature {
+    display: block;
+    background: linear-gradient(rgba(241, 246, 253, 0), rgba(241, 246, 253, 1), rgba(241, 246, 253, 1), rgba(255, 255, 255, 1));
+    max-width: 1440px;
+    height: 1069px;
+}
+
+.tittle {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tittle span {
+    color: rgba(33, 123, 244, 1);
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+
+}
+
+.tittle h1 {
+    color: rgba(10, 9, 61, 1);
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+
+.tittle p {
+    color: rgba(10, 9, 61, 1);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1132px;
+    height: 678px;
+    margin-top: 42px;
+}
+
+.block {
+    width: 522px;
+    height: 182px;
+    margin: 22px;
+    background-color: white;
+    border-radius: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 14px 22px 52px rgba(127, 127, 127, 0.13);
+}
+
+.block img {
+    margin: 40px;
+
+}
+
+
+.block h2 {
+    position: relative;
+    top: 46px;
+    margin: 0;
+}
+
+.block p {
+    width: 320px;
+    position: relative;
+    margin: 0;
+    bottom: 88px;
+    left: 186px;
+}
